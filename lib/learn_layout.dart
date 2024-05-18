@@ -136,6 +136,7 @@ class LearnLayoutPage extends StatelessWidget {
                   style: TextStyle(
                     fontFamily: "Poppins",
                   ),
+                  softWrap: true,
                 ),
               )
             ],
