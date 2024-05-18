@@ -11,6 +11,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
           appBar: AppBar(
             title: const Text(appTitle),
+            centerTitle: true,
+            titleTextStyle: const TextStyle(
+                fontFamily: "Poppins",
+                color: Colors.black54,
+                fontSize: 20,
+                fontWeight: FontWeight.bold),
           ),
           body: const SingleChildScrollView(
             child: Column(
